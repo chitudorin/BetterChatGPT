@@ -68,6 +68,38 @@ export const modelMaxToken = {
 };
 
 export const modelCost = {
+  '@cf/meta/llama-2-7b-chat-fp16': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 }
+  },
+  '@cf/meta/llama-2-7b-chat-int8': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 }
+  },
+  '@cf/mistral/mistral-7b-instruct-v0.1': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 }
+  },
+  '@hf/thebloke/deepseek-coder-6.7b-instruct-awq': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 }
+  },
+  '@cf/deepseek-ai/deepseek-math-7b-instruct': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 }
+  },
+  '@cf/tiiuae/falcon-7b-instruct': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 }
+  },
+  '@hf/thebloke/llama-2-13b-chat-awq': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 }
+  },
+  '@hf/thebloke/mistral-7b-instruct-v0.1-awq': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 }
+  },
   'gpt-3.5-turbo': {
     prompt: { price: 0.0015, unit: 1000 },
     completion: { price: 0.002, unit: 1000 },
